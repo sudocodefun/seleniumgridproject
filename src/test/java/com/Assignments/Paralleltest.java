@@ -37,9 +37,7 @@ try {
         	        option);
         	System.out.println("session created on Edge");       	        	}
         System.out.println("RemoteDriver connectivity is completed");       
-        Thread.sleep(10000);
-        driver.get("https://www.amazon.in/");
-        Thread.sleep(6000);        
+        driver.get("https://example.com/");    
         System.out.println(driver.getTitle());
         driver.quit();
     }
